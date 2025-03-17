@@ -1,9 +1,6 @@
-X = int(input())
-Y = float(input())
+dist_per = int(input())
+total_gasto = float(input())
 
-dist_per = X
-total_gasto = Y
-
-cons_med = X / Y
+cons_med = dist_per / total_gasto
 
 print(f'{cons_med:.3f} km/l')
